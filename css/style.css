@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{}
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	color: #535D69;
+	font-size: 14px;
+	transition: .3s;
+}
+nav ul li a:hover{
+    color: red;
+}
+/*header end*/
+
+/*banner start*/
+
+.banner_section{
+	background-image: url(../images/banner.jpg);
+}
+
+.banner_wrapper{
+    margin: 100px 0;
+    width: 49%;
+}
+.banner_wrapper h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 54px;
+    margin-bottom: 25px;
+}
+.banner_wrapper p{
+	color: white;margin-bottom: 10px;
+}
+.banner_wrapper a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin-top: 25px;
+	padding: 15px 20px;
+	border-radius: 3px;
+	background: #d85269;
+	text-transform: uppercase;
+	transition: .3s
+}
+
+.banner_wrapper a:hover{
+    background: white;
+    color: #d85269;
+}
+
+/*banner end*/
+
+/*work start*/
+.work_section{}
+.wrapper{
+    width: 60%;
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
+}
+.work_wrapper{
+}
+.work_wrapper h1{
+    text-transform: uppercase;
+    padding: 15px;
+}
+.work_wrapper p{
+    line-height: 1.4;
+}
+.work_bottom{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.work{
+    width: 23%;
+    float: left;
+    text-align: center;
+    padding: 0px;
+    margin-right: 100px;
+}
+.work img{
+    width: 50%;
+}
+.work p{}
+/*work end*/
+
+/*learn start*/
+.learn_section{
+	background: #ececec;
+}
+.both_side{
+    margin: 85px 0;
+    overflow: hidden;
+}
+.left_side{
+	width: 45%;
+	float: left;
+	margin-right: 40px;
+}
+.left_side h1{
+    text-transform: uppercase;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.left_side p{
+    padding: 20px 0;
+}
+.left_side a{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    background:#d85269;
+}
+.left_side a:hover{
+    background: white;
+    color: #d85269;
+	
+}
+.right{
+	width: 45%;
+	float: left;
+}
+
+/*learn end*/
+
+/*feature section start*/
+.top_feature{
+    margin: 20px 0;
+}
+.top_feature h1{
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.top_feature p{
+    line-height: 1.4;
+}
+.middle{}
+.box{}
+.box img{}
+.box h3{}
+.box p{}
+
